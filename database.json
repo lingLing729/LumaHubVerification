@@ -2,20 +2,3 @@
   "keys": [],
   "blacklist": []
 }
-```
-
-### **Step 3: Import to Replit**
-1. Go to https://replit.com
-2. Click "+ Create Repl"
-3. Select **"Import from GitHub"**
-4. Paste your repo URL: `https://github.com/YOUR_USERNAME/lumahub-key-system`
-5. Click **"Import from GitHub"**
-
-### **Step 4: Set Environment Variables in Replit**
-1. Click the **🔒 Secrets** (lock icon) on left sidebar
-2. Add these secrets:
-```
-LOOTLABS_API_KEY = 07921cb66d66e80a487bd0ecf83f5f31d2e460374b8cfbd4bef8ff9877ff655c
-ADMIN_PASSWORD = admin123
-PORT = 3000
-KEY_EXPIRATION_HOURS = 24
